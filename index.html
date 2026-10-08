@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build The House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="start-screen" class="screen">
+    <div class="card">
+        <h1>🏗️ Build The House</h1>
+        <p>Learn Construction English while building a house!</p>
+
+        <input
+            type="text"
+            id="playerName"
+            placeholder="Enter your name">
+
+        <button id="startBtn">
+            ▶ START GAME
+        </button>
+    </div>
+</div>
+
+<div id="game-screen" class="screen hidden">
+
+    <header>
+
+        <h2 id="welcome">
+            Welcome!
+        </h2>
+
+        <div class="top-info">
+
+            <span>⭐ Score: <b id="score">0</b></span>
+
+            <span>⏱️ Time: <b id="timer">15</b></span>
+
+        </div>
+
+        <div class="progress">
+
+            <div id="progress-bar"></div>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="house">
+
+            <h3>Your House</h3>
+
+            <div id="house">
+                🟫
+            </div>
+
+        </div>
+
+        <div class="quiz">
+
+            <img id="image" class="image" src="images/hammer.png" alt="Construction Image">
+
+            <h2 id="question">
+                Question
+            </h2>
+
+            <div id="answers">
+
+            </div>
+
+            <button id="nextBtn">
+                Next →
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

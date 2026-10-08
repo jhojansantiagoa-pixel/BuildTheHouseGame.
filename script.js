@@ -1,104 +1,104 @@
 const questions = [
 {
-image:"images/hammer.png",
+image:"hammer.png",
 question:"What is this tool?",
 answers:["Hammer","Saw","Drill","Bucket"],
 correct:0
 },
 
 {
-image:"images/brick.png",
+image:"brick.png",
 question:"What material is this?",
 answers:["Wood","Glass","Steel","Brick"],
 correct:3
 },
 
 {
-image:"images/saw.jpeg",
+image:"saw.jpeg",
 question:"Which tool is used to cut wood?",
 answers:["Hammer","Saw","Helmet","Concrete"],
 correct:1
 },
 
 {
-image:"images/tape measure.png",
+image:"tape measure.png",
 question:"Which tool is used to measure?",
 answers:["Roof","Brick","Tape Measure","Door"],
 correct:2
 },
 
 {
-image:"images/ladder.png",
+image:"ladder.png",
 question:"What is this?",
 answers:["Helmet","Ladder","Window","Floor"],
 correct:1
 },
 
 {
-image:"images/worker building.png",
+image:"worker building.png",
 question:"What is the worker doing?",
 answers:["Sleeping","Driving","Swimming","Building"],
 correct:3
 },
 
 {
-image:"images/worker painting.png",
+image:"worker painting.png",
 question:"The worker is __ the wall.",
 answers:["Eating","Painting","Reading","Jumping"],
 correct:1
 },
 
 {
-image:"images/worker drilling.png",
+image:"worker drilling.png",
 question:"The worker is __ the wall.",
 answers:["Cooking","Drilling","Sleeping","Running"],
 correct:1
 },
 
 {
-image:"images/bucket.png",
+image:"bucket.png",
 question:"Workers carry concrete with a...",
 answers:["Bucket","Window","Roof","Chair"],
 correct:0
 },
 
 {
-image:"images/house under construction.png",
+image:"house under construction.png",
 question:"What are they building?",
 answers:["A bridge","A Bicyle","A boat","A house"],
 correct:3
 },
 
 {
-image:"images/wall.png",
+image:"wall.png",
 question:"Bricks are used to build...",
 answers:["Clouds","Water","Walls","Cars"],
 correct:2
 },
 
 {
-image:"images/safety helmet.png",
+image:"safety helmet.png",
 question:"Workers wear this for safety.",
 answers:["Helmet","Spoon","Book","Bottle"],
 correct:0
 },
 
 {
-image:"images/safety boots.png",
+image:"safety boots.png",
 question:"Safety __ protect workers' feet.",
 answers:["Windows","Boots","Bricks","Doors"],
 correct:1
 },
 
 {
-image:"images/safety vest.png",
+image:"safety vest.png",
 question:"What is this safety equipment?",
 answers:["Hammer","Table","Roof","Safety Vest"],
 correct:3
 },
 
 {
-image:"images/finished house.png",
+image:"finished house.png",
 question:"Congratulations! You built a...",
 answers:["House","Car","Plane","Ship"],
 correct:0
@@ -125,9 +125,9 @@ const question = document.getElementById("question");
 const answers = document.getElementById("answers");
 const nextBtn = document.getElementById("nextBtn");
 const house = document.getElementById("house")
-const correctSound = new Audio("sounds/correct.mp3");
-const wrongSound = new Audio("sounds/wrong.mp3");
-const applauseSound = new Audio("sounds/applause.mp3");
+const correctSound = new Audio("correct.mp3");
+const wrongSound = new Audio("wrong.mp3");
+const applauseSound = new Audio("applause.mp3");
 startBtn.addEventListener("click", () => {
     const name = playerName.value.trim();
 
